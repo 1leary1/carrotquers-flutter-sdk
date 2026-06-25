@@ -1,3 +1,13 @@
+## 1.1.1
+- Updated API endpoint. No other changes — behavior, public API and dependencies are unchanged. No migration needed; just bump the SDK version.
+
+## 1.1.0
+Android                                                              
+Major refactoring                                                                  
+- Core: completely redesigned internal logic and initialization process to improve stability and performance.
+- UI: updated visual style and navigation, including the conversation list and full-screen image viewing.
+- Integration: simplified SDK integration for host applications, removed deprecated components, cleaned up the codebase.  
+
 ## 1.0.2
 - Improved the mechanics for recording statistics of trigger messages, ensuring more accurate and reliable activity tracking.
 - [iOS] Fixed a bug where the input field could stop displaying in situations where it should be visible.
